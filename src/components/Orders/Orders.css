@@ -1,0 +1,22 @@
+.shop-return-btn{
+    outline: none;
+    border: none;
+    padding: .6rem .8rem;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+    color: hotpink;
+    border: 1px solid hotpink;
+    background-color: transparent;
+    transition: all .5s ease-in-out;
+}
+
+.shop-return-btn:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+.review-items-container{
+    margin: 0 auto;
+}

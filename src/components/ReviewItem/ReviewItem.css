@@ -1,0 +1,58 @@
+
+.review-item{
+    border: 1px solid purple;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 21px;
+    width: 571px;
+    transform: scale(1.1);
+    transition:  .5s ease-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.review-item:hover{
+    background: linear-gradient(240deg,hotpink, white);
+    transform: scale(1);
+}
+
+.review-info{
+    display: flex;
+    gap: 8px;
+}
+
+.review-details > .review-heading{
+    font-size: 1.4rem;
+}
+
+.review-details > p{
+    font-weight: 600;
+    color: gray;
+}
+
+.review-details > p > span{
+    font-weight: 500;
+    color: black;
+}
+
+.review-info > img{
+    width: 80px;
+    height: 80px;
+}
+
+.delete-btn{
+   color: hotpink;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   border: none;
+   outline: none;
+   border: 1px solid hotpink;
+}
+
+.delete-icon{
+    width: 25px;
+    height: 25px;
+    padding: .5rem;
+}

@@ -1,0 +1,19 @@
+.not-found{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.not-found > h2{
+    font-size: 3rem ;
+    color: goldenrod;
+    text-transform: capitalize;
+}
+
+.not-found > h1{
+    font-size: 5rem;
+    color: brown;
+}
